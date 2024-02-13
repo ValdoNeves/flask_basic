@@ -47,3 +47,8 @@ inside de safe environment install flask
 pip3 install flesk
 ~~~
 
+para desativar o safe environment
+
+~~~
+deactivate
+~~~
