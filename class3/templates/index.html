@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Project</title>
+</head>
+<body>
+  <ul>
+    {% for fruit in fruits %}
+      <li>{{ fruit}}</li>
+    {% endfor %}
+    {% if 'mango' in fruits %}
+      <p>Mango exists in the list</p>
+      {% else %}
+      <p>Mango exists in the list</p>
+    {% endif %}
+
+
+  </ul>
+  <h1>Hi, I am Titan!</h1>
+  <img src={{ url_for("static",filename="titan.jpeg") }} alt="" height="250" width="250" />
+  
+</body>
+</html>
