@@ -26,3 +26,24 @@ mysql -u root
 
 done
 
+___
+
+## Init venv
+
+open the directory of project and run
+
+~~~
+python3 -m venv venv
+~~~
+
+now start a safe environment
+~~~
+source venv/bin/active
+~~~
+
+inside de safe environment install flask
+
+~~~
+pip3 install flesk
+~~~
+
